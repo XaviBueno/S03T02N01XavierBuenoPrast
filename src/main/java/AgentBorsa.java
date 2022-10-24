@@ -1,4 +1,6 @@
 
+//Classe el jubjecte observable
+
 import java.util.ArrayList;
 
 public class AgentBorsa implements Observable{
@@ -33,8 +35,6 @@ public class AgentBorsa implements Observable{
 	
 	//Esborra una agencia(observador)
 	
-	
-	
 	public void removeObserver(Observer agencia){
 		agenciesBorsa.remove(agencia);
 	}
@@ -46,7 +46,7 @@ public class AgentBorsa implements Observable{
 		}
 	}
 	
-	
+	//Event que provoca la notificació
 	public void canviBorsa(int canvi){
 		switch (canvi){
 			case 1: 
