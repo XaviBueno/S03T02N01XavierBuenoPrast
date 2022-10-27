@@ -16,5 +16,5 @@ public class AppObserver{
 		elMeuAgentBorsa.canviBorsa(3); //La Borsa baixa
 		elMeuAgentBorsa.canviBorsa(1); //La Borsa queda igual
 	}
-}
+}  
 
